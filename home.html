@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home12">
+      <section class="rectangle-section"></section>
+      <div class="home-child9"></div>
+      <img class="home-child10" alt="" src="./public/group-3@2x.png" />
+
+      <img
+        class="pixelcut-export-6-28"
+        alt=""
+        src="./public/pixelcutexport-6-2@2x.png"
+      />
+
+      <button class="cart11" id="cart">
+        <img class="vector-icon90" alt="" src="./public/vector8.svg" />
+      </button>
+      <div class="navigation-bar5">
+        <div class="navigation-bar-child3"></div>
+        <div class="settings21" id="settingsText">Settings</div>
+        <button class="settings22" id="settings"></button>
+        <div class="user-parent4">
+          <button class="user11">
+            <img class="path7-icon" alt="" src="./public/path7.svg" />
+          </button>
+          <div class="sign-in">Sign in</div>
+          <img
+            class="notification-icon11"
+            alt=""
+            src="./public/notification.svg"
+            id="notificationIcon"
+          />
+        </div>
+        <div class="gamer-pass11" id="gamerPassText">Gamer Pass</div>
+        <div class="library24" id="libraryText">Library</div>
+        <div class="store25" id="storeText">Store</div>
+        <button class="home13">
+          <img class="home-child11" alt="" src="./public/group-1.svg" />
+        </button>
+        <button class="library25">
+          <img
+            class="library-file-archive12"
+            alt=""
+            src="./public/69--library-file-archive.svg"
+            id="libraryFileArchive"
+          />
+        </button>
+        <button class="store26" id="store">
+          <img class="vector-icon91" alt="" src="./public/vector.svg" />
+
+          <img class="vector-icon92" alt="" src="./public/vector1.svg" />
+
+          <img class="vector-icon93" alt="" src="./public/vector2.svg" />
+
+          <img class="vector-icon94" alt="" src="./public/vector3.svg" />
+
+          <img class="vector-icon95" alt="" src="./public/vector4.svg" />
+
+          <img class="vector-icon96" alt="" src="./public/vector5.svg" />
+
+          <img class="vector-icon97" alt="" src="./public/vector6.svg" />
+
+          <img class="vector-icon98" alt="" src="./public/vector7.svg" />
+        </button>
+      </div>
+      <input class="rectangle-input" type="text" />
+
+      <input class="home-child12" type="text" />
+
+      <button class="rectangle-parent4" id="groupButton">
+        <div class="group-child9"></div>
+        <div class="sign-in1">Sign in</div>
+      </button>
+      <div class="enter-username">Enter Username</div>
+      <div class="enter-password">Enter Password</div>
+    </div>
+
+    <script>
+      var cart = document.getElementById("cart");
+      if (cart) {
+        cart.addEventListener("click", function (e) {
+          window.location.href = "./cart.html";
+        });
+      }
+      
+      var settingsText = document.getElementById("settingsText");
+      if (settingsText) {
+        settingsText.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+      
+      var settings = document.getElementById("settings");
+      if (settings) {
+        settings.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+      
+      var notificationIcon = document.getElementById("notificationIcon");
+      if (notificationIcon) {
+        notificationIcon.addEventListener("click", function (e) {
+          window.location.href = "./notification1.html";
+        });
+      }
+      
+      var gamerPassText = document.getElementById("gamerPassText");
+      if (gamerPassText) {
+        gamerPassText.addEventListener("click", function (e) {
+          window.location.href = "./starting-page.html";
+        });
+      }
+      
+      var libraryText = document.getElementById("libraryText");
+      if (libraryText) {
+        libraryText.addEventListener("click", function (e) {
+          window.location.href = "./library.html";
+        });
+      }
+      
+      var storeText = document.getElementById("storeText");
+      if (storeText) {
+        storeText.addEventListener("click", function (e) {
+          window.location.href = "./store.html";
+        });
+      }
+      
+      var libraryFileArchive = document.getElementById("libraryFileArchive");
+      if (libraryFileArchive) {
+        libraryFileArchive.addEventListener("click", function (e) {
+          window.location.href = "./library.html";
+        });
+      }
+      
+      var store = document.getElementById("store");
+      if (store) {
+        store.addEventListener("click", function (e) {
+          window.location.href = "./store.html";
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./profile.html";
+        });
+      }
+      </script>
+  </body>
+</html>

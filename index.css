@@ -1,0 +1,25 @@
+.pixelcut-export-6-1 {
+  position: absolute;
+  top: calc(50% - 166px);
+  left: 510px;
+  width: 498px;
+  height: 279px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.animation-1725111273266-1 {
+  position: absolute;
+  top: 517px;
+  left: 684px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.loading-page {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-black);
+  height: 774px;
+  overflow: hidden;
+}
